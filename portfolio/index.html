@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/iconmoon.css">
     <link rel="stylesheet" href="css/et-line.css">
     <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
     <!-- Magnific PopUp -->
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -57,7 +58,8 @@
     <!-- Preloader -->
     <div class="cover"></div>
 
-    <div class="header">
+    <div class="home-header">
+        <div id="particles-js"></div>
         <div class="container">
             <div class="logo">
                 <a href="index.html">
@@ -114,37 +116,48 @@
             </div>
             <!-- End of Menu Hamburger (Default) -->
 
+            <div id="home" class="hero">
+                <!-- Social Media START -->
+                <!-- <div class="social__media">
+                    <a href="#">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                    </a>
+                </div> -->
+                <!-- Social Media END -->
+            
+                <div class="header__content">
+                    <div class="name">
+                        call me <span class="blue">val.</span>
+                    </div>
+                    <div class="cd-intro">
+                        <div class="cd-headline clip">
+                            <span class="headline-intro">I'm a</span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">FRONT END DEVELOPER</b>
+                                <b>SOFTWARE ENGINEER</b>
+                                <b>DESIGNER</b>
+                            </span>
+                        </div>
+                        </br>
+                        <div class="btn-project home-btn">
+                            <a href="#" data-hover="Resume">
+                                <i class="pe-7s-keypad"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#projects">
+                        <i class="fa-solid fa-arrow-down-long arrow" style="color: white;
+                                                font-size: 2rem;"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="slider-wrapper">
-            <div class="slider-description">
-                <!-- <div class="slider-description-inner">
-                    <h1>Pure<span>Elegance</span></h1>
-                </div> -->
-                <div class="cd-intro">
-                    <div class="cd-headline clip">
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">FRONT END DEVELOPER</b>
-                            <b>SOFTWARE ENGINEER</b>
-                            <b>DESIGNER</b>
-                        </span>
-                    </div>
-                </br>
-                    <div class="btn-project home-btn">
-                        <a href="#" data-hover="Resume">
-                            <i class="pe-7s-keypad"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- <div id="slider-ef" class="slider-images-wrapper">
-                <img class="img-responsive" src="img/slider/image_1.jpg" alt="">
-                <img class="img-responsive" src="img/slider/image_2.jpg" alt="">
-                <img class="img-responsive" src="img/slider/image_3.jpg" alt="">
-            </div> -->
-        </div>
     </div>
     <div class="container margin-top" id="projects">
         <div class="main-title">
@@ -465,5 +478,7 @@
     <script src="js/main.js"></script>
     <script src="js/ajax.js"></script>
     <script src="js/map-costum.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
