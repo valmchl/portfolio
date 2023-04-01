@@ -304,18 +304,6 @@ h6,
     left: 3px;
 }
 
-
-/*** Service ***/
-.service-item {
-    position: relative;
-    height: 350px;
-    padding: 30px 25px;
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    transition: .5s;
-}
-
-
 /*** Project Portfolio ***/
 #portfolio-flters .btn {
     position: relative;
