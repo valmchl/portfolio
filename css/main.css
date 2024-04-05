@@ -3116,20 +3116,29 @@ form textarea:required:valid {
 .avatar__block:last-child {
 	margin-bottom: 0;
 }
+@media only screen and (min-width: 1400px) {
+	.avatar__block:last-child {
+		top: 36rem;
+		margin: 0;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+	.avatar__block {
+		margin: 2rem 0;
+	}
+	.avatar__block:first-child {
+		margin-bottom: 0;
+	}
+	.avatar__block:last-child {
+		top: 45rem;
+	}
+}
 @media only screen and (min-width: 768px) {
 	.avatar__block {
 		margin-bottom: 4rem;
 	}
 	.avatar__block:first-child {
 		margin-bottom: 4.4rem;
-	}
-}
-@media only screen and (min-width: 992px) {
-	.avatar__block {
-		margin-bottom: 0;
-	}
-	.avatar__block:first-child {
-		margin-bottom: 0;
 	}
 }
 
